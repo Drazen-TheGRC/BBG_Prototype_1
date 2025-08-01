@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 20.0f; // Speed of the vehicle
-    public float TurnSpeed = 50.0f; // Speed of rotation
-    public float horizontalInput; // Input for horizontal movement
-    public float verticalInput; // Input for vertical movement
+    private float speed = 20.0f; // Speed of the vehicle
+    private float TurnSpeed = 50.0f; // Speed of rotation
+    private float horizontalInput; // Input for horizontal movement
+    private float verticalInput; // Input for vertical movement
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
